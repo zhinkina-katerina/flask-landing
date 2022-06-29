@@ -14,7 +14,7 @@ const fullpageOptions = {
 
 };
 
-function Fullpage() {
+function App() {
         return (
             <ReactFullpage
                 {...fullpageOptions}
@@ -32,4 +32,4 @@ function Fullpage() {
             />
 );
 }
-export default Fullpage;
+export default App;
