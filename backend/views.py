@@ -10,14 +10,14 @@ from flask_cors import cross_origin
 def serve():
     return send_from_directory(app.static_folder, 'index.html')
 
-@app.route("/api/get_portfolio_items", methods=["GET"])
+@app.route("/api/get_portfolio_items", methods=["GET"],  endpoint='get_portfolio_items')
 @cross_origin
 def get_portfolio_items():
     projects = Project.query.all()
     return json.dumps(Project.serialize_list(projects))
 
 
-@app.route("/api/send_email", methods=["POST"])
+@app.route("/api/send_email", methods=["POST"], endpoint='send_email')
 @cross_origin
 def send_email():
     request_handler = RequestHandler()
