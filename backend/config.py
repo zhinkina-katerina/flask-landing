@@ -8,7 +8,7 @@ class Config(object):
     DEBUG = False
     TESTING = False
     SECRET_KEY = os.getenv('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
 
 
 class ProductionConfig(Config):
