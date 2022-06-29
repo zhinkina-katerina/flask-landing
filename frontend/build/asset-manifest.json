@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ac17e9e.css",
-    "main.js": "/static/js/main.c8882585.js",
+    "main.css": "frontend/build/static/css/main.4ac17e9e.css",
+    "main.js": "frontend/build/static/js/main.c8882585.js",
     "static/media/me.png": "/static/media/me.ce368faeec156bbd182e.png",
     "static/media/banner.jpg": "/static/media/banner.9a3235d04ebe66a95bb5.jpg",
     "static/media/contact-bg.jpg": "/static/media/contact-bg.6f92504343fdb1a55668.jpg",

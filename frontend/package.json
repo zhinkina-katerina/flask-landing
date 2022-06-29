@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://portfolio-flask-react.herokuapp.com/",
+  "homepage": "https://portfolio-flask-react.herokuapp.com/",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.26",
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,9 +18,7 @@
     "react-scripts": "5.0.1",
     "swiper": "^8.2.4",
     "web-vitals": "^2.1.4",
-    "whatwg-fetch": "^3.6.2",
-    "homepage": "https://portfolio-flask-react.herokuapp.com/"
-
+    "whatwg-fetch": "^3.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
