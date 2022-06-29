@@ -11,14 +11,14 @@ def serve():
     return send_from_directory(app.static_folder, 'index.html')
 
 @app.route("/api/get_portfolio_items", methods=["GET"],  endpoint='get_portfolio_items')
-@cross_origin
+@cross_origin()
 def get_portfolio_items():
     projects = Project.query.all()
     return json.dumps(Project.serialize_list(projects))
 
 
 @app.route("/api/send_email", methods=["POST"], endpoint='send_email')
-@cross_origin
+@cross_origin()
 def send_email():
     request_handler = RequestHandler()
     result = (eval(request.form.to_dict()['params']))
