@@ -55,7 +55,11 @@
 @media screen and (max-width: 1024px) {
     .portfolio__item{
         padding: 2rem 4rem 2rem 4rem !important;
+        overflow: scroll
     }
+    .portfolio__container h2 {
+    font-size: 4rem;
+}
 }
 @media screen and (max-width: 600px) {
     .portfolio__item{
@@ -66,4 +70,7 @@
     .portfolio__item__text p {
         font-size: small;
     }
+    .portfolio__container h2 {
+    font-size: 3rem;
+}
 }

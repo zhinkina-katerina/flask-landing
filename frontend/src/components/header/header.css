@@ -36,6 +36,7 @@ p {
     box-sizing: border-box;
     font-size: 72px;
 
+
 }
 
 .header__image {
@@ -45,7 +46,6 @@ p {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0rem 1.5rem 1.5rem 1.5rem;
-    /*background:radial-gradient(circle, var(--color-primary) 0%, rgba(253,187,45,0) 50%);*/
 }
 .header__socials {
     display: flex;
@@ -68,9 +68,18 @@ p {
     }
 
     .header__content{
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
+    .header__content h1 {
+        font-size: 3rem;
+    }
+    .text-yellow{
+        font-size: 4rem;
+    }
 }
 @media screen and (max-width: 600px) {
+    .text-yellow{
+        font-size: 3rem;
+    }
 
 }

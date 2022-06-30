@@ -22,7 +22,6 @@ I understand of WEB technologies such as JavaScript, HTML5, CSS3. I independentl
                     <p>But I pay the most attention to the backend. I am familiar with Flask, but I have the most experience with the Django framework.</p>
                     <div className="cta">
                         <a href={CV} download className='btn'>Download CV</a>
-                        <a href="#contacts" className='btn btn-primary'>Let`s talk</a>
                     </div>
                 </div>
                 <div className="about__me">

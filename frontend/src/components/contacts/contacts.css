@@ -61,11 +61,16 @@ input, textarea, button {
     font-weight: 500;
 }
 @media screen and (max-width: 1024px) {
-    .container.contact__container h5 {
-        margin-top: 20%;
-    }
+
     input, textarea, button {
         font-size: smaller;
+    }
+    .contact__form {
+        margin: 0;
+        width: 100%;
+    }
+    form {
+        grid-template-columns: 1fr
     }
 }
 @media screen and (max-width: 600px) {

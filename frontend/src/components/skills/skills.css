@@ -56,7 +56,9 @@ text-align: center;
 @media screen and (max-width: 600px) {
     .skills__cards{
         grid-template-columns: repeat(2, 1fr);
+        padding: 0;
     }
+
 
 }
 
