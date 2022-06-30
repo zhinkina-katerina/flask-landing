@@ -6,7 +6,7 @@ import {FaTelegramPlane} from "react-icons/fa"
 const SocialMedia = () =>{
     return(
         <div className="header__socials">
-            <a href="https://linkedin.com" target='_blank'><BsLinkedin/></a>
+            <a href="https://www.linkedin.com/in/katerina-zhinkina-57730822b/" target='_blank'><BsLinkedin/></a>
             <a href="https://github.com/zhinkina-katerina" target='_blank'><AiFillGithub/></a>
             <a href="https://t.me/ZhinkinaKaterina" target='_blank'><FaTelegramPlane/></a>
         </div>
