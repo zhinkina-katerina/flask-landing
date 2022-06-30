@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "frontend/build/static/css/main.99c8d531.css",
+    "main.js": "frontend/build/static/js/main.6fe42068.js",
+    "static/media/me.png": "frontend/build/static/media/me.ce368faeec156bbd182e.png",
+    "static/media/banner.jpg": "frontend/build/static/media/banner.9a3235d04ebe66a95bb5.jpg",
+    "static/media/contact-bg.jpg": "frontend/build/static/media/contact-bg.6f92504343fdb1a55668.jpg",
+    "static/media/portfolio-bg.jpg": "frontend/build/static/media/portfolio-bg.5b5fc037a1a1354c34bf.jpg",
+    "static/media/about-bg.jpg": "frontend/build/static/media/about-bg.8bf6255753784a0ecac7.jpg",
+    "static/media/skills-bg.jpg": "frontend/build/static/media/skills-bg.0832c3b1b27708cdb136.jpg",
+    "static/media/cv.pdf": "frontend/build/static/media/cv.96bb1cd98f0e64a97e54.pdf",
+    "static/media/me-about.jpg": "frontend/build/static/media/me-about.dae673568e55363a7d12.jpg",
+    "index.html": "/index.html",
+    "main.99c8d531.css.map": "frontend/build/static/css/main.99c8d531.css.map",
+    "main.6fe42068.js.map": "frontend/build/static/js/main.6fe42068.js.map"
+  },
+  "entrypoints": [
+    "frontend/build/static/css/main.99c8d531.css",
+    "frontend/build/static/js/main.6fe42068.js"
+  ]
+}
